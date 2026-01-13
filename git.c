@@ -584,6 +584,7 @@ static struct cmd_struct commands[] = {
 	{ "gc", cmd_gc, RUN_SETUP },
 	{ "get-tar-commit-id", cmd_get_tar_commit_id, NO_PARSEOPT },
 	{ "grep", cmd_grep, RUN_SETUP_GENTLY },
+	{ "gud", cmd_gud, RUN_SETUP_GENTLY },
 	{ "hash-object", cmd_hash_object },
 	{ "help", cmd_help },
 	{ "hook", cmd_hook, RUN_SETUP },
